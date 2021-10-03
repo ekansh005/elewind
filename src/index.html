@@ -3,3 +3,7 @@ layout : layouts/base.html
 title : 'Elewind'
 ---
 {% include 'layouts/hero.html' %}
+
+{% for i in range(0, 3) %}
+{% include 'layouts/postsSection.html' %}
+{% endfor %}
