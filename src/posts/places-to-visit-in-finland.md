@@ -2,6 +2,8 @@
 title: Places to visit in Finland
 description: Join our tour of nature in Finland to see a complex, diverse
   country that can best be described by the word “contrast.”
+thumbnail: /images/uploads/finland.jpg
+thumbnailAltText: Northern lights in Finland
 author: Ekansh Saxena
 date: 2021-10-03T17:17:05.739Z
 tags:
