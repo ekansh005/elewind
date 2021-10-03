@@ -1,5 +1,5 @@
 <div class="my-4 text-gray-600">
-    <span>- July 24, 2021</span>
+    <span>- <time>{{ post.data.date | readableDate }}</time></span>
     <span>in</span>
-    <span>Workation</span>
+    <span>{{ post.data.tags[0] }}</span>
 </div>

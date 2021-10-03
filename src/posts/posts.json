@@ -1,0 +1,6 @@
+{
+    "layout": "layouts/posts.html",
+    "tags": [
+        "post"
+    ]
+}
