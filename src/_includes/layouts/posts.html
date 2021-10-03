@@ -1,3 +1,22 @@
-<h1>{{ title }}</h1>
-<h3>Tags</h3>
-{{ tags }}
+---
+layout : layouts/base.html
+---
+<div class="bodyContainer my-12 lg:my-20">
+    <div class="text-center">
+        <h1 class="text-6xl font-extrabold my-4">{{ title }}</h1>
+        <div class="my-4 text-gray-600">
+            <span>- <time>{{ date | readableDate }}</time></span>
+            <span>in</span>
+            <span>{{ tags[1] }}</span>
+        </div>
+        <div class="my-4 italic text-gray-800">
+            <p>{{ description }}</p>
+        </div>
+    </div>
+    <div class="my-6">
+        <img src="{{ thumbnail }}" alt="{{ thumbnailAltText }}" class="h-96 w-full object-cover rounded-lg">
+    </div>
+    <article class="prose lg:prose-xl m-auto">
+        {{ content | safe }}
+    </article>
+</div>
