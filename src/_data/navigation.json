@@ -1,15 +1,19 @@
 {
   "items": [{
-      "name": "Day Trips",
-      "url": "#"
-    },
-    {
-      "name": "Weekend Getaways",
-      "url": "#"
-    },
-    {
-      "name": "Workactions",
-      "url": "#"
-    }
-  ]
+    "name": "Day Trips",
+    "url": "#",
+    "isTag": true
+  }, {
+    "name": "Weekend Getaways",
+    "url": "#",
+    "isTag": true
+  }, {
+    "name": "Workations",
+    "url": "#",
+    "isTag": true
+  }, {
+    "name": "Contact Us",
+    "url": "#",
+    "isTag": false
+  }]
 }

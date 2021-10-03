@@ -4,6 +4,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/scripts");
   eleventyConfig.addPassthroughCopy("src/images");
 
+  eleventyConfig.setDataDeepMerge(true);
+
   eleventyConfig.addCollection("heroPost", function (collectionApi) {
     // the latest post with featured tag becomes the Hero Post
     let featuredPosts = collectionApi.getFilteredByTag("Featured");

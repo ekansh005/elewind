@@ -1,10 +1,13 @@
+{% set headline = item.name if item.name else 'Latest' %}
+{% set tagName = item.name if item.name else 'post' %}
+{% set posts = collections[item.name] if item.name else collections.post %}
 <div class="bodyContainer my-6 pt-4 pb-4 md:pb-8 border-b">
     <div class="flex justify-between mb-6">
-        <h4 class="uppercase font-extrabold text-lg tracking-wider">Latest</h4>
+        <h4 class="uppercase font-extrabold text-lg tracking-wider">{{ headline }}</h4>
         <a href="#" class="underline">View More →</a>
     </div>
     <div class="grid grid-cols-3 gap-8">
-        {% for i in range(0, 3) %}
+        {% for post in posts | reverse %}
         <div class="col-span-3 md:col-span-1">
             {% include 'layouts/postCard.html' %}
         </div>

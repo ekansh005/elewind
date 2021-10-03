@@ -4,6 +4,12 @@ title : 'Elewind'
 ---
 {% include 'layouts/hero.html' %}
 
-{% for i in range(0, 3) %}
+<!-- latest posts section -->
 {% include 'layouts/postsSection.html' %}
+
+<!-- navigation tag based posts section -->
+{% for item in navigation.items %}
+{% if item.isTag %}
+{% include 'layouts/postsSection.html' %}
+{% endif %}
 {% endfor %}

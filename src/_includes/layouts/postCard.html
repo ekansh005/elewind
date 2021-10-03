@@ -1,12 +1,11 @@
 <div class="">
-    <img src="images/post1.jpg" alt="post 1 thumbnail" class="h-56 w-full object-cover rounded-md">
+    <img src="{{ post.data.image }}" alt="{{ post.data.imageAltText }}" class="h-56 w-full object-cover rounded-md">
     {% include 'layouts/postCardAttributes.html' %}
-    <a href="#">
-        <h3 class="font-extrabold text-2xl mb-4">Some really nice heading spreading over two lines</h3>
+    <a href="{{ post.url }}">
+        <h3 class="font-extrabold text-2xl mb-4">{{ post.data.title }}</h3>
     </a>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus debitis obcaecati sapiente, sequi veniam sit
-        aut tenetur placeat dicta blanditiis dolore nisi eveniet natus eaque voluptatum odio magnam enim ducimus?</p>
+    <p>{{ post.data.description }}</p>
     <div class="underline my-7">
-        <a href="#">Read More →</a>
+        <a href="{{ post.url }}">Read More →</a>
     </div>
 </div>

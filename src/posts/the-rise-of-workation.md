@@ -5,7 +5,7 @@ image: images/post2.jpg
 author: Ekansh Saxena
 date: 2021-05-06
 tags:
-  - Workation
+  - Workations
   - Featured
 ---
 
