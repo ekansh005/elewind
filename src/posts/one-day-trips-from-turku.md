@@ -1,7 +1,12 @@
 ---
 title: One day trip near Turku, Finland
-description: Need some day trip ideas near Turku? Ut iste doloremque vel vel velit excepturi provident non quibusdam. Dolorem nobis quo voluptatem blanditiis voluptatem veritatis ut ullam. Maxime et perspiciatis voluptatem iusto earum voluptatem. Veniam libero et assumenda quos cum accusamus quisquam expedita. Veritatis voluptate non eos.
-thumbnail: images/post3.jpg
+description: Need some day trip ideas near Turku? Ut iste doloremque vel vel
+  velit excepturi provident non quibusdam. Dolorem nobis quo voluptatem
+  blanditiis voluptatem veritatis ut ullam. Maxime et perspiciatis voluptatem
+  iusto earum voluptatem. Veniam libero et assumenda quos cum accusamus quisquam
+  expedita. Veritatis voluptate non eos.
+thumbnail: /images/uploads/post2.jpg
+thumbnailAltText: beach
 author: Ekansh Saxena
 date: 2021-05-04
 tags:
