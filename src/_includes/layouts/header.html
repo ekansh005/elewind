@@ -3,6 +3,7 @@
         <div>
             <h1 class="font-logo text-6xl font-bold tracking-wider">Elewind</h1>
         </div>
+        {% if navigation.items %}
         <div id="burger" class="cursor-pointer md:hidden">
             <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
@@ -12,10 +13,11 @@
         </div>
         <nav id="menu" class="hidden md:block text-xl mb-3">
             <ul class="flex flex-col md:flex-row h-full content-end flex-wrap">
-                <li><a href="#" class="mx-6">Day Trip</a></li>
-                <li><a href="#" class="mx-6">Weekend Getaways</a></li>
-                <li><a href="#" class="mx-6">Workation</a></li>
+                {% for item in navigation.items %}
+                <li><a href="{{ item.url }}" class="mx-6">{{ item.name }}</a></li>
+                {% endfor %}
             </ul>
         </nav>
+        {% endif %}
     </div>
 </header>
