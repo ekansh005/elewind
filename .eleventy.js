@@ -4,6 +4,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/scripts");
   eleventyConfig.addPassthroughCopy("src/images");
 
+  eleventyConfig.addPassthroughCopy("src/admin");
+
   eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.addCollection("heroPost", function (collectionApi) {
