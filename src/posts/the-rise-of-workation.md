@@ -1,7 +1,7 @@
 ---
 title: The rise of workation trend in 2021
 description: Work on but is your wish to explore at the same time? How about taking your workload to one of your favorite hill stations, beaches, or any other destinations?
-image: images/post2.jpg
+thumbnail: images/post2.jpg
 author: Ekansh Saxena
 date: 2021-05-06
 tags:

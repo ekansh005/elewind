@@ -1,5 +1,6 @@
 <div class="">
-    <img src="{{ post.data.image }}" alt="{{ post.data.imageAltText }}" class="h-56 w-full object-cover rounded-md">
+    <img src="{{ post.data.thumbnail }}" alt="{{ post.data.thumbnailAltText }}"
+        class="h-56 w-full object-cover rounded-md">
     {% include 'layouts/postCardAttributes.html' %}
     <a href="{{ post.url }}">
         <h3 class="font-extrabold text-2xl mb-4">{{ post.data.title }}</h3>

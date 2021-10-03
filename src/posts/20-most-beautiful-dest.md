@@ -1,8 +1,8 @@
 ---
 title: 20 Most Beautiful Travel Destionations in 2021
 description: This post lists the top 20 most beautiful travel destinations in 2021. Ut iste doloremque vel vel velit excepturi provident non quibusdam. Dolorem nobis quo voluptatem blanditiis voluptatem veritatis ut ullam. Maxime et perspiciatis voluptatem iusto earum voluptatem. Veniam libero et assumenda quos cum accusamus quisquam expedita. Veritatis voluptate non eos.
-image: images/hero.jpg
-imageAltText: Dubrovnik old city
+thumbnail: images/hero.jpg
+thumbnailAltText: Dubrovnik old city
 author: Ekansh Saxena
 date: 2021-05-04
 tags:

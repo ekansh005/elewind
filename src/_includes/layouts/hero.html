@@ -1,7 +1,7 @@
 <div class="bodyContainer my-6 pt-4 pb-4 md:pb-8 border-b">
     <div class="grid gap-4 grid-cols-2">
         {% set post = collections.heroPost %}
-        <img src="{{ post.data.image }}" alt="{{ post.data.imageAltText }}"
+        <img src="{{ post.data.thumbnail }}" alt="{{ post.data.thumbnailAltText }}"
             class="col-span-2 md:col-span-1 h-96 rounded-lg object-cover">
         <div class="col-span-2 md:col-span-1 py-4 pr-12">
             <a href="{{ post.url }}">
