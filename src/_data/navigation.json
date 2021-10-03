@@ -1,19 +1,22 @@
 {
   "items": [{
     "name": "Day Trips",
-    "url": "#",
-    "isTag": true
+    "url": "#idDayTrips",
+    "isTag": true,
+    "maxPostsOnHomepage": 3
   }, {
     "name": "Weekend Getaways",
-    "url": "#",
-    "isTag": true
+    "url": "#idWeekendGetaways",
+    "isTag": true,
+    "maxPostsOnHomepage": 3
   }, {
     "name": "Workations",
-    "url": "#",
-    "isTag": true
+    "url": "#idWorkations",
+    "isTag": true,
+    "maxPostsOnHomepage": 3
   }, {
     "name": "Contact Us",
-    "url": "#",
+    "url": "#idContactUs",
     "isTag": false
   }]
 }

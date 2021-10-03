@@ -1,16 +1,16 @@
 <div class="bodyContainer my-6 pt-4 pb-4 md:pb-8 border-b">
     <div class="grid gap-4 grid-cols-2">
         {% set post = collections.heroPost %}
-        <img src="{{ post.data.thumbnail }}" alt="{{ post.data.thumbnailAltText }}"
-            class="col-span-2 md:col-span-1 h-96 rounded-lg object-cover">
+        <a href="{{ post.url }}">
+            <img src="{{ post.data.thumbnail }}" alt="{{ post.data.thumbnailAltText }}"
+                class="col-span-2 md:col-span-1 h-96 rounded-lg object-cover">
+        </a>
         <div class="col-span-2 md:col-span-1 py-4 pr-12">
             <a href="{{ post.url }}">
                 <h2 class="text-5xl font-extrabold text-gray-900">{{ post.data.title }}</h2>
             </a>
             {% include 'layouts/postCardAttributes.html' %}
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam id esse asperiores nam ut minima adipisci
-                nulla repellat facilis soluta dolores, perferendis possimus sed qui, quae neque ipsa exercitationem
-                architecto.</p>
+            <p>{{ post.data.description }}</p>
             <div class="underline my-7">
                 <a href="{{ post.url }}">Read More →</a>
             </div>
