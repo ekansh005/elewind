@@ -18,6 +18,10 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLL yyyy");
   });
 
+  eleventyConfig.addFilter("onlyTags", (collections) => {
+    return Object.keys(collections).filter((tag) => tag !== "all" || tag !== "post");
+  });
+
   return {
     dir: {
       input: "src",

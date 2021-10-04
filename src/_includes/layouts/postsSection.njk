@@ -1,15 +1,19 @@
-{% set headline = item.name if item.name else 'Latest' %}
-{% set tagName = item.name if item.name else 'post' %}
-{% set posts = collections[item.name] if item.name else collections.post %}
-{% set maxPosts = item.maxPostsOnHomepage if maxPostsOnHomepage else 3 %}
 <div id="id{{ headline | replace(' ', '') }}" class="bodyContainer my-6 pt-4 pb-4 md:pb-8 border-b">
     <div class="flex justify-between mb-6">
         <h4 class="uppercase font-extrabold text-lg tracking-wider">{{ headline }}</h4>
-        <a href="#" class="underline">View More →</a>
+        {% if maxPosts %}
+            <a href="/tags/{{ tag | slug }}" class="underline">View More →</a>
+        {% endif %}
     </div>
     <div class="grid grid-cols-3 gap-8">
         {% for post in posts | reverse %}
-            {% if (loop.index0 < maxPosts) %}
+            {% if (maxPosts) %}
+                {% if (loop.index0 < maxPosts) %}
+                    <div class="col-span-3 md:col-span-1">
+                        {% include 'layouts/postCard.html' %}
+                    </div>
+                {% endif %}
+            {% else %}
                 <div class="col-span-3 md:col-span-1">
                     {% include 'layouts/postCard.html' %}
                 </div>

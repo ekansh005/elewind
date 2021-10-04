@@ -1,0 +1,23 @@
+---
+layout : layouts/base.html
+title : 'Elewind'
+---
+{% include 'layouts/hero.html' %}
+
+<!-- latest posts section -->
+{% set headline = 'Latest' %}
+{% set tag = 'post' %}
+{% set posts = collections.post %}
+{% set maxPosts = 3 %}
+{% include 'layouts/postsSection.njk' %}
+
+<!-- navigation tag based posts section -->
+{% for item in navigation.items %}
+    {% if item.isTag %}
+        {% set headline = item.name %}
+        {% set tag = item.name %}
+        {% set posts = collections[item.name] %}
+        {% set maxPosts = item.maxPostsOnHomepage if item.maxPostsOnHomepage else 3 %}
+        {% include 'layouts/postsSection.njk' %}
+    {% endif %}
+{% endfor %}
