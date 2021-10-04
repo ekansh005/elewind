@@ -1,17 +1,17 @@
 {
   "items": [{
     "name": "Day Trips",
-    "url": "#idDayTrips",
+    "url": "/tags/day-trips/",
     "isTag": true,
     "maxPostsOnHomepage": 3
   }, {
     "name": "Weekend Getaways",
-    "url": "#idWeekendGetaways",
+    "url": "/tags/weekend-getaways/",
     "isTag": true,
     "maxPostsOnHomepage": 3
   }, {
     "name": "Workations",
-    "url": "#idWorkations",
+    "url": "/tags/workations/",
     "isTag": true,
     "maxPostsOnHomepage": 3
   }, {

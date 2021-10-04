@@ -7,7 +7,7 @@ layout : layouts/base.html
         <div class="my-4 text-gray-600">
             <span>- <time>{{ date | readableDate }}</time></span>
             <span>in</span>
-            <span>{{ tags[1] }}</span>
+            <span><a href="/tags/{{ tags[1] | slug }}/">{{ tags[1] }}</a></span>
         </div>
         <div class="my-4 italic text-gray-800">
             <p>{{ description }}</p>
