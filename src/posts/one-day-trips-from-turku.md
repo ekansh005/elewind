@@ -5,7 +5,7 @@ description: Need some day trip ideas near Turku? Ut iste doloremque vel vel
   blanditiis voluptatem veritatis ut ullam. Maxime et perspiciatis voluptatem
   iusto earum voluptatem. Veniam libero et assumenda quos cum accusamus quisquam
   expedita. Veritatis voluptate non eos.
-thumbnail: /images/uploads/post2.jpg
+thumbnail: /images/uploads/miikka-airikkala-khaouktekc0-unsplash.jpg
 thumbnailAltText: beach
 author: Ekansh Saxena
 date: 2021-05-04
