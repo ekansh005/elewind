@@ -1,6 +1,17 @@
-# eleventy-tailwind-boilerplate
-The simplest boilerplate to use TailwindCSS with Eleventy
+# Elewind
 
-- Start by cloning this repo and run <code>npm run start</code> to serve this boilerplate in development environment.
-- You can starting changing <code>index.njk</code> file and the browser will automatically refresh to display your changes.
-- To build for production, run <code>npm run build</code>.
+An Eleventy, TailwindCSS and Netlify CMS based blog
+
+## Live Demo
+
+You can checkout the live demo of the blog at https://elewind-template.netlify.app/
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ekansh005/elewind)
+
+## Features
+
+## Getting Started
+
+## Contact Me
+
+## License
