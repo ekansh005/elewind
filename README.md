@@ -26,6 +26,21 @@ This has following features:
 
 ## Getting Started
 
+To try it out by deploying, you can use 'Deploy to Netlify' button directly.
+
+To run this in your environment:
+
+1. #### Clone git repo
+
+   First, clone the git repo using `git clone https://github.com/ekansh005/elewind.git`
+
+2. #### Install dependencies
+
+   In the Elewind repo folder, run `npm install` to install all the dependencies.
+
+3. #### Run
+   To run it in dev environment, run `npm run start` and it will create a local server and open the link in your default browser.
+
 ## Contact Me
 
 You can reach me on [Twitter](https://twitter.com/ekansh005) and [LinkedIn](https://www.linkedin.com/in/ekanshsaxena/).
